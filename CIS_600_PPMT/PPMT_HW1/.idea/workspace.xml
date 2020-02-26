@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="PPMT_HW1" targetName="gtest_main" />
+      <config projectName="PPMT_HW1" targetName="gmock" />
+      <config projectName="PPMT_HW1" targetName="gtest" />
+      <config projectName="PPMT_HW1" targetName="GoogleTestRun" />
+      <config projectName="PPMT_HW1" targetName="PPMT_HM1" />
+      <config projectName="PPMT_HW1" targetName="gmock_main" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ffda2ea1-1158-4755-bfd3-c0de73229c00" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/GoogleTest/lib" />
+  </component>
+  <component name="ProjectId" id="1Wow9xYgjxZwtIOdkspudloo0GZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Google Test.All in MergeTest">
+    <configuration name="All in MergeTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PPMT_HW1" TARGET_NAME="GoogleTestRun" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PPMT_HW1" RUN_TARGET_NAME="GoogleTestRun" TEST_CLASS="MergeTest" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeTest.example" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PPMT_HW1" TARGET_NAME="GoogleTestRun" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PPMT_HW1" RUN_TARGET_NAME="GoogleTestRun" TEST_CLASS="MergeTest" TEST_METHOD="example" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleTestRun" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PPMT_HW1" TARGET_NAME="GoogleTestRun" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PPMT_HW1" RUN_TARGET_NAME="GoogleTestRun">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PPMT_HM1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PPMT_HW1" TARGET_NAME="PPMT_HM1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PPMT_HW1" RUN_TARGET_NAME="PPMT_HM1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PPMT_HW1" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PPMT_HW1" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PPMT_HW1" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PPMT_HW1" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.PPMT_HM1" />
+      <item itemvalue="CMake Application.GoogleTestRun" />
+      <item itemvalue="CMake Application.gmock" />
+      <item itemvalue="CMake Application.gmock_main" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
+      <item itemvalue="Google Test.All in MergeTest" />
+      <item itemvalue="Google Test.MergeTest.example" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.MergeTest.example" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffda2ea1-1158-4755-bfd3-c0de73229c00" name="Default Changelist" comment="" />
+      <created>1579829107337</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579829107337</updated>
+      <workItem from="1579829111679" duration="33096000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1217" y="368" key="#New_File_Extensions" timestamp="1579992642821">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state x="1217" y="368" key="#New_File_Extensions/0.23.2560.1360/-1680.743.1680.1027@0.23.2560.1360" timestamp="1579992642821" />
+    <state x="1082" y="365" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579999533908">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state x="1082" y="365" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1360/-1680.743.1680.1027@0.23.2560.1360" timestamp="1579999533908" />
+    <state x="1439" y="431" key="#gtest_main" timestamp="1579995074423">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state x="1439" y="431" key="#gtest_main/0.23.2560.1360/-1680.743.1680.1027@0.23.2560.1360" timestamp="1579995074423" />
+    <state width="404" height="466" key="DebuggerActiveHint" timestamp="1579967065072">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state width="404" height="466" key="DebuggerActiveHint/0.23.2560.1360/-1680.743.1680.1027@0.23.2560.1360" timestamp="1579967065072" />
+    <state width="1179" height="381" key="GridCell.Tab.0.bottom" timestamp="1580000502144">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state width="1179" height="381" key="GridCell.Tab.0.bottom/0.23.2560.1360/-1680.743.1680.1027@0.23.2560.1360" timestamp="1580000502144" />
+    <state width="1179" height="381" key="GridCell.Tab.0.center" timestamp="1580000502143">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state width="1179" height="381" key="GridCell.Tab.0.center/0.23.2560.1360/-1680.743.1680.1027@0.23.2560.1360" timestamp="1580000502143" />
+    <state width="1179" height="381" key="GridCell.Tab.0.left" timestamp="1580000502142">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state width="1179" height="381" key="GridCell.Tab.0.left/0.23.2560.1360/-1680.743.1680.1027@0.23.2560.1360" timestamp="1580000502142" />
+    <state width="1179" height="381" key="GridCell.Tab.0.right" timestamp="1580000502144">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state width="1179" height="381" key="GridCell.Tab.0.right/0.23.2560.1360/-1680.743.1680.1027@0.23.2560.1360" timestamp="1580000502144" />
+    <state x="1231" y="342" key="SettingsEditor" timestamp="1579994236564">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state x="1231" y="342" key="SettingsEditor/0.23.2560.1360/-1680.743.1680.1027@0.23.2560.1360" timestamp="1579994236564" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>192</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

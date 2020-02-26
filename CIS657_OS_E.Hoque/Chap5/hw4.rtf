@@ -1,0 +1,50 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2507
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red27\green29\blue31;\red255\green255\blue255;\red9\green77\blue175;
+\red11\green96\blue192;}
+{\*\expandedcolortbl;;\cssrgb\c14118\c15294\c16078;\cssrgb\c100000\c100000\c100000;\cssrgb\c0\c39216\c74118;
+\cssrgb\c0\c46667\c80000;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 execl() correct\
+execle() no executing \'93/bin/ls\'94 sometimes prints Child\
+execlp() correct\
+execv() correct\
+execvp() correct\
+execvpe() not complied\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs30 \cf2 \cb3 \expnd0\expndtw0\kerning0
+Functions in the exec() family have different behaviours:\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf2 \cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+l : arguments are passed as a list of strings to the main()\cb1 \
+\ls1\ilvl0\cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+v : arguments are passed as an array of strings to the main()\cb1 \
+\ls1\ilvl0\cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+p : path/s to search for the new running program\cb1 \
+\ls1\ilvl0\cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+e : the environment can be specified by the caller\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 You can mix them, therefore you have:\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0\cf2 \cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+int execl(const char *path, const char *arg, ...);\cb1 \
+\ls2\ilvl0\cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+int execlp(const char *file, const char *arg, ...);\cb1 \
+\ls2\ilvl0\cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+int execle(const char *path, const char *arg, ..., char * const envp[]);\cb1 \
+\ls2\ilvl0\cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+int execv(const char *path, char *const argv[]);\cb1 \
+\ls2\ilvl0\cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+int execvp(const char *file, char *const argv[]);\cb1 \
+\ls2\ilvl0\cb3 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+int execvpe(const char *file, char *const argv[], char *const envp[]);\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 For all of them the initial argument is the name of a file that is to be executed.\cb1 \
+\cb3 For more information read {\field{\*\fldinst{HYPERLINK "http://man7.org/linux/man-pages/man3/exec.3.html"}}{\fldrslt \cf4 \ul \ulc4 exec(3) man page}}:}

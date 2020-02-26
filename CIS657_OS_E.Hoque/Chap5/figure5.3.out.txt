@@ -1,0 +1,3 @@
+      26     124     871 figure5.3.c
+hello world (pid:3423)
+hello, I am parent of 3424 (rc_wait:3424) (pid:3423)
